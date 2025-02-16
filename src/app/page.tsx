@@ -9,6 +9,7 @@ const DynamicAnimatedBackground = dynamic(
   { ssr: false }
 )
 
+
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden perspective-1000">
@@ -51,3 +52,5 @@ export default function Home() {
     </div>
   )
 }
+
+
